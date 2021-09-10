@@ -28,7 +28,6 @@ Graph *createGraph(int numberOfVertices, int maxDegree, int isWeighted, int isDi
                 {
                     gr->weight[j] = (int*)malloc(maxDegree*sizeof(int));
                 }
-                
             }
         }
     }
