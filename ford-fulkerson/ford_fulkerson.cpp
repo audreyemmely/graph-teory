@@ -57,12 +57,12 @@ int ford_fulkerson(Graph g, int source, int target)
     while(bfs(g, residual, source, target,parent)){
         int path = INT_MAX;
 
-        for ( v = target; v != source; v = parent[v]){
+        for (v = target; v != source; v = parent[v]){
 			u = parent[v];
 			path = (residual[u][v] < path)? residual[u][v] : path;
 		}
 
-		for( v = target; v != source; v = parent[v]){
+		for(v = target; v != source; v = parent[v]){
 			u = parent[v];
 			residual[u][v] -= path;
 			residual[v][u] += path;
@@ -75,7 +75,7 @@ int ford_fulkerson(Graph g, int source, int target)
 
 int main(){
     Graph g;
-    int vertex1, vertex2, weight, source, target;
+    int v1, v2, weight, source, target;
 
     scanf("%d%d", &g.V, &g.E);
     scanf("%d%d", &source, &target);
@@ -87,9 +87,9 @@ int main(){
     }
 
     for (int i = 0; i < g.E; i++){
-        scanf("%d%d%d", &vertex1, &vertex2, &weight);
+        scanf("%d%d%d", &v1, &v2, &weight);
 
-        g.adj_list[vertex1][vertex2] = weight;
+        g.adj_list[v1][v2] = weight;
     }
 
     printf("O fluxo maximo desse grafo eh: %d\n", ford_fulkerson(g, source, target));
