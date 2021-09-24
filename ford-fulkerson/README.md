@@ -27,3 +27,9 @@ Then, m lines, which represent the edges of the graph, each with three integers:
 Note that the vertices are numbered from 0 to n - 1, therefore, for the algorithm to work, the entry must be made respecting these limits when identifying the vertices.
 
 This input can be done interactively via the terminal, or via a text file.
+
+### About the output 
+The output will be a string ```O fluxo maximo desse grafo eh: F``` (the maximum flow of this graph is: F), where F is an integer representing the maximum flow of the graph according to the Ford-Fulkerson algorithm.
+
+### Example 
+![ford](https://user-images.githubusercontent.com/52829664/134730099-2dad2c02-3e39-4c08-ab98-348d84d98569.png)
