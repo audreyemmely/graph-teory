@@ -32,3 +32,4 @@ This input can be done interactively via the terminal, or via a text file.
 The output will consist of one line, in the format s -> ... -> v -> ... -> t. Where s is the initial vertex and t is the destination, in addition to i vertices that make up the path between them. If there is no path between s and t in the input graph, the output will be ```Nao existe caminho``` (path does not exist).
 
 ### Example
+![dijkstra](https://user-images.githubusercontent.com/52829664/134730100-e29d5ba6-2a9a-4942-b939-d328ed3a28e9.png)
