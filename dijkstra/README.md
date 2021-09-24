@@ -29,4 +29,6 @@ Note that the vertices are numbered from 0 to n - 1, therefore, for the algorith
 This input can be done interactively via the terminal, or via a text file.
 
 ### About the output
-The output will consist of one line, in the format s -> ... -> v -> ... -> t. Where s is the initial vertex and t is the destination, in addition to i vertices that make up the path between them. If there is no path between s and t in the input graph, the output will be ```No path```.
+The output will consist of one line, in the format s -> ... -> v -> ... -> t. Where s is the initial vertex and t is the destination, in addition to i vertices that make up the path between them. If there is no path between s and t in the input graph, the output will be ```Nao existe caminho``` (path does not exist).
+
+### Example
