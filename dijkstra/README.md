@@ -7,7 +7,7 @@ git clone https://github.com/audreyemmely/graph-teory.git
 ```
 If you do not have Git installed on your machine, you can download the repository in "zip" format, just click on the green button named "Code" (top right) and choose the option "Download ZIP". After that, unzip the file and follow the next instructions.
 
-After cloning/downloading the repository, find where the repository is located on your machine and open the folder named "graph-teory". Inside there are four folders named "dijktra", "ford-fulkerson", "kruskal" and "prim".
+After cloning/downloading the repository, find where the repository is located on your machine and open the folder named "graph-teory". Inside there are four folders named "dijkstra", "ford-fulkerson", "kruskal" and "prim".
 
 Now, using the terminal go to the path where the folder is located on your machine (Ex.: C:\Users\Audrey\Desktop\graph-teory).
 
